@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect to the root index.html with the original path preserved in the hash
+      var path = window.location.pathname;
+      var base = "/myportfolio-sreelatha";
+
+      if (!path.startsWith(base)) {
+        window.location.replace(base + "/#" + path);
+      } else {
+        window.location.replace(base + "/#" + path.slice(base.length));
+      }
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
