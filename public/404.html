@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redirecting...</title>
     <script>
-      // Redirect unknown routes to the correct subdirectory's index.html
+      // Redirect to the correct route only if the basename is not already included
       var path = window.location.pathname;
-      var newPath = "/myportfolio-sreelatha" + path;
-      window.location.replace(newPath);
+      var base = "/myportfolio-sreelatha";
+
+      if (!path.startsWith(base)) {
+        window.location.replace(base + path);
+      }
     </script>
   </head>
   <body>
