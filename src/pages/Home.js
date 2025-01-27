@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "../styles/Home.css";
+import { Link } from "react-router-dom";
 // import * as THREE from "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js";
 import * as THREE from "three";
 
@@ -145,28 +146,32 @@ function Home() {
       </h2>
       <div className="home-sec-3">
         <div>
-          <a className="pages" href="/projects">
-            <img alt="" className="h-img" src={String(projects)} />
+          <Link className="pages" to="/projects">
+            <img alt="Projects" className="h-img" src={String(projects)} />
             <p>Projects</p>
-          </a>
+          </Link>
         </div>
         <div>
-          <a className="pages" href="/certifications">
-            <img alt="" className="h-img" src={String(certification)} />
+          <Link className="pages" to="/certifications">
+            <img
+              alt="Certifications"
+              className="h-img"
+              src={String(certification)}
+            />
             <p>Certifications</p>
-          </a>
+          </Link>
         </div>
         <div>
-          <a className="pages" href="/about">
-            <img alt="" className="h-img" src={String(about)} />
+          <Link className="pages" to="/about">
+            <img alt="About me" className="h-img" src={String(about)} />
             <p>About me</p>
-          </a>
+          </Link>
         </div>
         <div>
-          <a className="pages" href="/contactme">
-            <img alt="" className="h-img" src={String(contactme)} />
+          <Link className="pages" to="/contactme">
+            <img alt="Contact me" className="h-img" src={String(contactme)} />
             <p>Contact me</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
