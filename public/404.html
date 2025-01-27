@@ -1,4 +1,17 @@
-<script>
-  // Redirect all 404 routes to the index.html for React Router to handle
-  window.location.replace("/");
-</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect unknown routes to the correct subdirectory's index.html
+      var path = window.location.pathname;
+      var newPath = "/myportfolio-sreelatha" + path;
+      window.location.replace(newPath);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
