@@ -1,14 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function ProjectCard(props) {
   return (
     <>
       <div>
-        <a className="project-card" href={props.projectLink}>
+        <Link className="project-card" to={props.projectLink}>
           <img alt="" src={props.image} />
           <h2>{props.name}</h2>
           <p>{props.comment}</p>
-        </a>
+        </Link>
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Dicee() {
   return (
@@ -9,7 +9,6 @@ function Dicee() {
         flexDirection: "column",
         textAlign: "center",
         alignItems: "center",
-        
       }}
     >
       <p
@@ -22,6 +21,7 @@ function Dicee() {
         link here. So that you can view them in new tab without disturbing the
         Portfolio.
       </p>
+
       <a
         href="https://sreelathavs.github.io/My-Portfolio/Prev-projects/Dicee%20Challenge%20-%20Starting%20Files/dicee.html"
         target="_blank"
@@ -38,4 +38,4 @@ function Dicee() {
   );
 }
 
-export default Dicee
+export default Dicee;
