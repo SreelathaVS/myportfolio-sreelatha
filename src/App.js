@@ -72,10 +72,12 @@ import Simon from "./components/projects/Simon.js";
 // export default App;
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop.js";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <Routes>
