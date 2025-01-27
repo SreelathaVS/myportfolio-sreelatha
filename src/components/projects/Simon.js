@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Simon() {
   return (
@@ -9,14 +9,13 @@ function Simon() {
         flexDirection: "column",
         textAlign: "center",
         alignItems: "center",
-        
       }}
     >
       <p
         style={{ marginBottom: "10%", lineHeight: "2rem", fontSize: "1.3rem" }}
       >
         I have built few projects before learning react and other advanced
-        tools.Simon is one of them. I used very basic html, css with bootstrap.
+        tools. Simon is one of them. I used very basic html, css with bootstrap.
         So it will take so much time and efforts to change Simon project to
         react and include it here. So I am just attaching it's hosted github
         link here. So that you can view them in new tab without disturbing the
@@ -38,4 +37,4 @@ function Simon() {
   );
 }
 
-export default Simon
+export default Simon;
