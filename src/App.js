@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
@@ -16,27 +15,57 @@ import Dicee from "./components/projects/Dicee.js";
 import Drumkit from "./components/projects/Drumkit.js";
 import Simon from "./components/projects/Simon.js";
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="" element={<Home />} />
+//         <Route path="/home" element={<Home />} />
+//         <Route path="/projects" element={<Projects />} />
+//         <Route path="/certifications" element={<Certifications />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/contactme" element={<Contacts />} />
+//         <Route path="/taskmanager" element={<TaskManager />} />
+//         <Route path="/calculator" element={<Calculator />} />
+//         <Route path="/tindog" element={<Tindog />} />
+//         <Route path="/simon" element={<Simon />} />
+//         <Route path="/drumkit" element={<Drumkit />} />
+//         <Route path="/dicee" element={<Dicee />} />
+//       </Routes>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// Import other components
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/certifications" element={<Certifications />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contactme" element={<Contacts />} />
-        <Route path="/taskmanager" element={<TaskManager />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/tindog" element={<Tindog />} />
-        <Route path="/simon" element={<Simon />} />
-        <Route path="/drumkit" element={<Drumkit />} />
-        <Route path="/dicee" element={<Dicee />} />
-      </Routes>
-      <Footer />
-    </div>
+    <Router basename="/myportfolio-sreelatha">
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/certifications" element={<Certifications />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contactme" element={<Contacts />} />
+          <Route path="/taskmanager" element={<TaskManager />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/tindog" element={<Tindog />} />
+          <Route path="/simon" element={<Simon />} />
+          <Route path="/drumkit" element={<Drumkit />} />
+          <Route path="/dicee" element={<Dicee />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
