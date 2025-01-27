@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/myportfolio-sreelatha/static/css/main.f855e6bc.css",
-    "main.js": "/myportfolio-sreelatha/static/js/main.ae47f38a.js",
+    "main.css": "/myportfolio-sreelatha/static/css/main.bcc23521.css",
+    "main.js": "/myportfolio-sreelatha/static/js/main.36bd16e3.js",
     "static/js/453.e038d961.chunk.js": "/myportfolio-sreelatha/static/js/453.e038d961.chunk.js",
-    "static/media/logo.svg": "/myportfolio-sreelatha/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/MyPhoto.jpeg": "/myportfolio-sreelatha/static/media/MyPhoto.bdcb9a8a694f4fe85f2f.jpeg",
+    "static/media/techHighsCOE.png": "/myportfolio-sreelatha/static/media/techHighsCOE.2df64c722574e6362f59.png",
+    "static/media/Smiley.png": "/myportfolio-sreelatha/static/media/Smiley.6cac6081b1b86d792862.png",
+    "static/media/techHighsCOC.png": "/myportfolio-sreelatha/static/media/techHighsCOC.2796f581d638c6137f98.png",
+    "static/media/what'sapp-logo.png": "/myportfolio-sreelatha/static/media/what'sapp-logo.e714b606dde3163f5ddb.png",
+    "static/media/linkedIn-logo.png": "/myportfolio-sreelatha/static/media/linkedIn-logo.a7ba96474db96a84f358.png",
+    "static/media/about.png": "/myportfolio-sreelatha/static/media/about.8bd0a944a0cfd25cc43e.png",
+    "static/media/gmail-logo-icon.png": "/myportfolio-sreelatha/static/media/gmail-logo-icon.62df6f154dbc98932b7b.png",
+    "static/media/contact.png": "/myportfolio-sreelatha/static/media/contact.1f363626398a7d699a3e.png",
+    "static/media/projects.png": "/myportfolio-sreelatha/static/media/projects.205bdcb5915b3349a488.png",
+    "static/media/maths_formulae_illn_2.webp": "/myportfolio-sreelatha/static/media/maths_formulae_illn_2.5a609d17fa4dbc7979c4.webp",
+    "static/media/cerification.png": "/myportfolio-sreelatha/static/media/cerification.b4053af2340c8cfc5036.png",
     "index.html": "/myportfolio-sreelatha/index.html",
-    "main.f855e6bc.css.map": "/myportfolio-sreelatha/static/css/main.f855e6bc.css.map",
-    "main.ae47f38a.js.map": "/myportfolio-sreelatha/static/js/main.ae47f38a.js.map",
+    "main.bcc23521.css.map": "/myportfolio-sreelatha/static/css/main.bcc23521.css.map",
+    "main.36bd16e3.js.map": "/myportfolio-sreelatha/static/js/main.36bd16e3.js.map",
     "453.e038d961.chunk.js.map": "/myportfolio-sreelatha/static/js/453.e038d961.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ae47f38a.js"
+    "static/css/main.bcc23521.css",
+    "static/js/main.36bd16e3.js"
   ]
 }
