@@ -41,12 +41,41 @@ import Simon from "./components/projects/Simon.js";
 
 // export default App;
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// Import other components
+// import { HashRouter as Router, Routes, Route } from "react-router-dom";
+// // Import other components
+
+// function App() {
+//   return (
+//     <Router basename="/myportfolio-sreelatha">
+//       <div className="App">
+//         <Navbar />
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/home" element={<Home />} />
+//           <Route path="/projects" element={<Projects />} />
+//           <Route path="/certifications" element={<Certifications />} />
+//           <Route path="/about" element={<About />} />
+//           <Route path="/contactme" element={<Contacts />} />
+//           <Route path="/taskmanager" element={<TaskManager />} />
+//           <Route path="/calculator" element={<Calculator />} />
+//           <Route path="/tindog" element={<Tindog />} />
+//           <Route path="/simon" element={<Simon />} />
+//           <Route path="/drumkit" element={<Drumkit />} />
+//           <Route path="/dicee" element={<Dicee />} />
+//         </Routes>
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// }
+
+// export default App;
+
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/myportfolio-sreelatha">
+    <Router>
       <div className="App">
         <Navbar />
         <Routes>
