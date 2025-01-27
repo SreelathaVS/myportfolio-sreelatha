@@ -1,0 +1,112 @@
+nav {
+  padding: 2%;
+}
+
+.nav-text {
+  color: #ffc107;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.nav-text:hover {
+  padding-bottom: 5%;
+  border-bottom: 4px solid #eaeaea;
+}
+.nav-name {
+  font-size: 1.35rem;
+  color: #ffc107;
+  margin-right: 40%;
+  font-family: "Fira Sans", serif;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+/* Hides the full menu on smaller screens */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: #ffc107;
+  cursor: pointer;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* Mobile Menu */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: #ffc107;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  /* Navbar for Mobile Screens */
+  nav {
+  position: fixed; /* Ensure navbar stays on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5%;
+  background-color: #1c1c1e;
+  z-index: 1000; /* High z-index to stay above content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+  /* Hide Links on Small Screens */
+  .nav-links {
+    display: none; /* Hide initially */
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c1e;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: translateX(100%); /* Hidden by default */
+    transition: transform 0.3s ease;
+    z-index: 999; /* Ensure it's below the navbar but above content */
+  }
+
+  /* Show Links When Menu Opens */
+  .mobile-menu {
+    display: flex;
+    transform: translateX(0); /* Slide in */
+  }
+
+  /* Navbar Links in Mobile Menu */
+  .nav-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* Hamburger Icon */
+  .menu-icon {
+    display: block; /* Show hamburger icon */
+    z-index: 1001; /* Ensure it's above the menu */
+  }
+
+  /* Name on the Left */
+  .nav-name {
+    margin-left: 1rem;
+  }
+
+  /* Prevent Content Scroll When Menu is Open */
+  body.menu-open {
+    overflow: hidden;
+  }
+}
