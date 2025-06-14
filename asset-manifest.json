@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio-sreelatha/static/css/main.6917d54a.css",
-    "main.js": "/myportfolio-sreelatha/static/js/main.1e84341e.js",
+    "main.js": "/myportfolio-sreelatha/static/js/main.7a3924d6.js",
     "static/js/453.e038d961.chunk.js": "/myportfolio-sreelatha/static/js/453.e038d961.chunk.js",
     "static/media/techHighsCOE.png": "/myportfolio-sreelatha/static/media/techHighsCOE.2df64c722574e6362f59.png",
     "static/media/Smiley.png": "/myportfolio-sreelatha/static/media/Smiley.6cac6081b1b86d792862.png",
@@ -16,11 +16,11 @@
     "static/media/cerification.png": "/myportfolio-sreelatha/static/media/cerification.b4053af2340c8cfc5036.png",
     "index.html": "/myportfolio-sreelatha/index.html",
     "main.6917d54a.css.map": "/myportfolio-sreelatha/static/css/main.6917d54a.css.map",
-    "main.1e84341e.js.map": "/myportfolio-sreelatha/static/js/main.1e84341e.js.map",
+    "main.7a3924d6.js.map": "/myportfolio-sreelatha/static/js/main.7a3924d6.js.map",
     "453.e038d961.chunk.js.map": "/myportfolio-sreelatha/static/js/453.e038d961.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6917d54a.css",
-    "static/js/main.1e84341e.js"
+    "static/js/main.7a3924d6.js"
   ]
 }
