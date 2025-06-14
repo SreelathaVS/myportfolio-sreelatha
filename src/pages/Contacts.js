@@ -21,7 +21,11 @@ function Contacts() {
             My best skill is watching Movies limitless. I also like to watch
             Memes. If you like them too..let's share them with each other. You
             are always welcome if you want to appreciate or give any advices on
-            my work.{" "}
+            my work.
+            <p style={{ color: "red" }}>
+              Sorry!! I should not give Contact details as it's a project for
+              resume.
+            </p>
           </p>
 
           <ul className="contacts-ul">
