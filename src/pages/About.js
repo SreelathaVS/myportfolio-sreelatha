@@ -16,7 +16,7 @@ import { HiCommandLine } from "react-icons/hi2";
 
 import "../styles/OtherPages.css";
 
-const myPic = require("../assets/MyPhoto.jpeg");
+const myPic = require("../assets/MyPhoto.jpg");
 
 function About() {
   return (

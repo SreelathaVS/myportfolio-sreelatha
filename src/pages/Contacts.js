@@ -26,11 +26,7 @@ function Contacts() {
 
           <ul className="contacts-ul">
             <li>
-              <a
-                href="https://www.linkedin.com/in/sreelatha-pesala-a02054259/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="..." target="_blank" rel="noopener noreferrer">
                 <img
                   className="contact-logo"
                   src={String(linLogo)}
@@ -39,11 +35,7 @@ function Contacts() {
               </a>
             </li>
             <li>
-              <a
-                href="mailto:bs22b028@smail.iitm.ac.in"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="..." target="_blank" rel="noopener noreferrer">
                 <img
                   className="contact-logo"
                   src={String(mailLogo)}
@@ -52,11 +44,7 @@ function Contacts() {
               </a>
             </li>
             <li>
-              <a
-                href="https://wa.me/918309269695"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="..." target="_blank" rel="noopener noreferrer">
                 <img
                   className="contact-logo"
                   src={String(WALogo)}

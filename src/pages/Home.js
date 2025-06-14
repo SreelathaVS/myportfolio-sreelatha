@@ -1,15 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
-// import * as THREE from "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js";
 import * as THREE from "three";
-
-// const myPic = require("../assets/MyPhoto.jpeg");
-// const about = require("../assets/about.png");
-// const certification = require("../assets/cerification.png");
-// const contactme = require("../assets/contact.png");
-// const projects = require("../assets/projects.png");
-import myPic from "../assets/MyPhoto.jpeg";
+import myPic from "../assets/MyPhoto.jpg";
 import about from "../assets/about.png";
 import certification from "../assets/cerification.png";
 import contactme from "../assets/contact.png";
